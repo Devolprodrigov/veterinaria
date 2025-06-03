@@ -1,0 +1,108 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Corpo */
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 20px 0;
+}
+
+header .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+header nav ul {
+    list-style: none;
+    margin-top: 15px;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+.section {
+    padding: 60px 20px;
+    background-color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Títulos */
+h2 {
+    margin-bottom: 20px;
+    color: #0077b6;
+    text-align: center;
+}
+
+/* Lista de serviços */
+.servicos-lista {
+    list-style: none;
+    padding-left: 0;
+    text-align: center;
+}
+
+.servicos-lista li {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+/* Foto de perfil */
+.foto-perfil {
+    width: 250px;
+    border-radius: 50%;
+    display: block;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* QR Code */
+.qrcode {
+    margin-top: 20px;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Rodapé */
+footer {
+    background-color: #023e8a;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
